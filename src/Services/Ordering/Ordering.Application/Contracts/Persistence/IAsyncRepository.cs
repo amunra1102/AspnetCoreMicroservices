@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Ordering.Domain.Common;
 
-namespace Ordering.Application.Behaviours.Persistence
+namespace Ordering.Application.Contracts.Persistence
 {
     public interface IAsyncRepository<T> where T : EntityBase
     {
